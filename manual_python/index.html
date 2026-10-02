@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Manual interactivo de Python para Sistemas de Gestión Empresarial. De Java a un ERP+CRM modular: sintaxis, colecciones, funciones, paquetes y objetos.">
+  <title>Python para SGE · Manual de referencia</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23684ee3'/%3E%3Ctext x='5' y='27' font-family='monospace' font-size='24' fill='white'%3Epy%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('sge-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){document.documentElement.dataset.theme='light'}</script>
+  <script src="content.js" defer></script><script src="advanced.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="topbar">
+    <button id="menu-toggle" class="icon-button mobile-menu" aria-label="Abrir índice" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <a class="brand" href="#/inicio"><span class="brand-icon">py<span>_</span></span><span>Python <span class="brand-divider">/</span> <strong>SGE</strong></span></a>
+    <span class="header-label">MANUAL DE REFERENCIA</span>
+    <button class="search-trigger" id="search-open"><span aria-hidden="true">⌕</span><span>Buscar un concepto…</span><kbd>Ctrl K</kbd></button>
+    <button class="icon-button theme-toggle" id="theme-toggle" aria-label="Cambiar tema"></button>
+    <span class="course-tag">2º DAM</span>
+  </header>
+  <div id="menu-shade" hidden></div>
+  <aside class="sidebar" id="sidebar" aria-label="Índice del manual"><div class="sidebar-top"><span class="eyebrow">TU GUÍA DE PYTHON</span><span class="version">3.10+</span></div><nav id="navigation"></nav><div class="sidebar-foot"><span class="mini-logo">{ }</span><div><strong>Del código al negocio</strong><span>ERP + CRM modular</span></div></div></aside>
+  <div class="workspace"><main id="contenido" tabindex="-1"></main><aside class="on-this-page" id="toc" aria-label="En esta página"></aside></div>
+  <dialog id="search-dialog" aria-labelledby="search-label"><div class="search-head"><label id="search-label" for="search-input">Buscar en el manual</label><button class="icon-button" id="search-close" aria-label="Cerrar búsqueda">×</button></div><input id="search-input" type="search" placeholder="Prueba: diccionario, return, facturas…" autocomplete="off"><p id="search-count" role="status"></p><div id="search-results"></div><div class="search-footer">Busca conceptos, código o ejemplos de negocio <kbd>Esc</kbd></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <noscript><p>Activa JavaScript para consultar el índice y los capítulos de este manual.</p></noscript>
+</body>
+</html>
